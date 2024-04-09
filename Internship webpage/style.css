@@ -1,0 +1,68 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Styling the body */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+  }
+  
+  /* Styling the heading */
+  .heading {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Styling the box container */
+  .box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  /* Styling individual box */
+  .box {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 39, 39, 0.937);
+    margin: 20px;
+    padding: 30px;
+    width: 400px;
+  }
+  
+  /* Styling the image inside the box */
+  .box img {
+    width: 100%;
+    border-radius: 10px;
+  }  
+  h3{
+    color:crimson;
+    text-align: center;
+  }
+  .btn {
+    background-color: #ff0d0d; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn:hover {
+    background-color: #db141b; /* Darker green */
+  }
+  h1{
+    color : red;
+  }
